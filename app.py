@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer, PreTrainedModel, PreTrainedTokenizer
 import torch
 import os
 
